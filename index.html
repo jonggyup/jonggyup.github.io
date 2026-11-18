@@ -432,6 +432,12 @@
 
     <li>
       <span class="skill-main">
+        <span class="skill-name">Virtualization</span>:
+        <span class="skill-desc">live VM migration, CXL memory pooling, memory management</span>
+      </span>
+    </li>
+    <li>
+      <span class="skill-main">
         <span class="skill-name">Synchronization</span>:
         <span class="skill-desc">userspace and kernel implementations of mutex/spinlocks</span>
       </span>
@@ -442,13 +448,24 @@
     <button class="filter-btn" data-skill="all" aria-pressed="true">All</button>
     <button class="filter-btn" data-skill="Power management" aria-pressed="false">Power</button>
     <button class="filter-btn" data-skill="Storage systems" aria-pressed="false">Storage</button>
+    <button class="filter-btn" data-skill="Virtualization" aria-pressed="false">Virtualization</button>
     <button class="filter-btn" data-skill="Synchronization" aria-pressed="false">Sync</button>
   </div>
 
   <h1>Selected Publications</h1>
 
+  <div class="pub-item" id="pub-12" data-skills="Virtualization">
+      <span class="tag">[12]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3828523.3857062">FM²: Fast Live VM Migration in CXL Memory Pools</a></span><br>
+      Zezhou Wang<sup>*</sup>, <strong>Jonggyu Park</strong><sup>*</sup>, Shihang Li, Pedro Henrique Penna, Thomas E. Anderson, and Simon Peter<br>
+      <em>Proceedings of ACM SIGOPS Annual Technical Conference (ATC)</em>, pp. 352–367, 2026.<br>
+      <small><sup>*</sup>Equal contribution.</small>
+      <div class="pub-skills">
+          <span class="skill-chip">Virtualization</span>
+      </div>
+  </div>
+
   <div class="pub-item" id="pub-11" data-skills="Power management">
-	  <span class="tag">[11]</span> <span class="pub-title">Prediction-Informed Power Management for General-Purpose Compute Servers</span><br>
+	  <span class="tag">[11]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3767295.3803617">Prediction-Informed Power Management for General-Purpose Compute Servers</a></span><br>
 	  <strong>Jonggyu Park</strong>, Simon Peter, and Thomas E. Anderson<br>
 	  <em>Proceedings of ACM European Conference on Computer Systems (EuroSys)</em>, 2026.
 	  <div class="pub-skills">
@@ -457,7 +474,7 @@
   </div>
 
   <div class="pub-item" id="pub-10" data-skills="Power management|Storage systems">
-	  <span class="tag">[10]</span> <span class="pub-title">PASS: A Power Adaptive Storage Server</span><br>
+	  <span class="tag">[10]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3767295.3769354">PASS: A Power Adaptive Storage Server</a></span><br>
 	  Dedong Xie, Theano Stavrinos, <strong>Jonggyu Park</strong>, Simon Peter, Baris Kasikci, and Thomas E. Anderson<br>
 	  <em>Proceedings of ACM European Conference on Computer Systems (EuroSys)</em>, 2026.
 	  <div class="pub-skills">
@@ -467,7 +484,7 @@
   </div>
 
   <div class="pub-item" id="pub-9" data-skills="Power management">
-	  <span class="tag">[9]</span> <span class="pub-title">EMPower: The Case for a Cloud Power Control Plane</span><br>
+	  <span class="tag">[9]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3727200.3727212">EMPower: The Case for a Cloud Power Control Plane</a></span><br>
 	  <strong>Jonggyu Park</strong>, Theano Stavrinos, Simon Peter, and Thomas E. Anderson<br>
 	  <em>Proceedings of ACM SIGENERGY Energy Informatics Review, Volume 4, Issue 5, also presented in HotCarbon</em>, 2024.
 	  <div class="pub-skills">
@@ -476,7 +493,7 @@
   </div>
 
   <div class="pub-item" id="pub-8" data-skills="Synchronization">
-	  <span class="tag">[8]</span> <span class="pub-title">Locks as a Resource: Fairly Scheduling Lock Occupation with CFL</span><br>
+	  <span class="tag">[8]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3627535.3638477">Locks as a Resource: Fairly Scheduling Lock Occupation with CFL</a></span><br>
 	  <strong>Jonggyu Park</strong> and Young Ik Eom<br>
 	  <em>Proceedings of the 29th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP)</em>, 2024.
 	  <div class="pub-skills">
@@ -485,7 +502,7 @@
   </div>
 
   <div class="pub-item" id="pub-7" data-skills="Storage systems">
-	  <span class="tag">[7]</span> <span class="pub-title">Filesystem Fragmentation on Modern Storage Systems</span><br>
+	  <span class="tag">[7]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3611386">Filesystem Fragmentation on Modern Storage Systems</a></span><br>
 	  <strong>Jonggyu Park</strong> and Young Ik Eom<br>
 	  <em>ACM Transactions on Computer Systems (TOCS)</em>, 2023.
 	  <div class="pub-skills">
@@ -494,7 +511,7 @@
   </div>
 
   <div class="pub-item" id="pub-6" data-skills="Storage systems">
-	  <span class="tag">[6]</span> <span class="pub-title">File Fragmentation from the Perspective of I/O Control</span><br>
+	  <span class="tag">[6]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3538643.3539746">File Fragmentation from the Perspective of I/O Control</a></span><br>
 	  <strong>Jonggyu Park</strong> and Young Ik Eom<br>
 	  <em>Proceedings of the 14th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage)</em>, 2022.
 	  <div class="pub-skills">
@@ -503,7 +520,7 @@
   </div>
 
   <div class="pub-item" id="pub-5" data-skills="Storage systems">
-	  <span class="tag">[5]</span> <span class="pub-title">Weight-Aware Cache for Application-Level Proportional I/O Sharing</span><br>
+	  <span class="tag">[5]</span> <span class="pub-title"><a href="https://doi.org/10.1109/TC.2021.3129366">Weight-Aware Cache for Application-Level Proportional I/O Sharing</a></span><br>
 	  <strong>Jonggyu Park</strong> and Young Ik Eom<br>
 	  <em>IEEE Transactions on Computers</em>, 2021.
 	  <div class="pub-skills">
@@ -512,7 +529,7 @@
   </div>
 
   <div class="pub-item" id="pub-4" data-skills="Storage systems">
-	  <span class="tag">[4]</span> <span class="pub-title">FragPicker: A New Defragmentation Tool for Modern Storage Devices</span><br>
+	  <span class="tag">[4]</span> <span class="pub-title"><a href="https://doi.org/10.1145/3477132.3483593">FragPicker: A New Defragmentation Tool for Modern Storage Devices</a></span><br>
 	  <strong>Jonggyu Park</strong> and Young Ik Eom<br>
 	  <em>Proceedings of the 28th ACM Symposium on Operating Systems Principles (SOSP)</em>, 2021.
 	  <div class="pub-skills">
@@ -521,7 +538,7 @@
   </div>
 
   <div class="pub-item" id="pub-3" data-skills="Storage systems">
-	  <span class="tag">[3]</span> <span class="pub-title">Towards Application-level I/O Proportionality with a Weight-aware Page Cache Management</span><br>
+	  <span class="tag">[3]</span> <span class="pub-title"><a href="https://www.msstconference.org/MSST-history/2020/Papers/23.TowardsProportionality.pdf">Towards Application-level I/O Proportionality with a Weight-aware Page Cache Management</a></span><br>
 	  <strong>Jonggyu Park</strong>, Kwonje Oh, and Young Ik Eom<br>
 	  <em>Proceedings of the 36th International Conference on Massive Storage Systems and Technology (MSST)</em>, 2020.
 	  <div class="pub-skills">
@@ -530,7 +547,7 @@
   </div>
 
   <div class="pub-item" id="pub-2" data-skills="Storage systems">
-	  <span class="tag">[2]</span> <span class="pub-title">Anti-Aging LFS: Self-Defragmentation With Fragmentation-Aware Cleaning</span><br>
+	  <span class="tag">[2]</span> <span class="pub-title"><a href="https://doi.org/10.1109/ACCESS.2020.3017240">Anti-Aging LFS: Self-Defragmentation With Fragmentation-Aware Cleaning</a></span><br>
 	  <strong>Jonggyu Park</strong> and Young Ik Eom<br>
 	  <em>IEEE ACCESS</em>, 2020.
 	  <div class="pub-skills">
@@ -539,7 +556,7 @@
   </div>
 
   <div class="pub-item" id="pub-1" data-skills="Storage systems">
-	  <span class="tag">[1]</span> <span class="pub-title">File Defragmentation Scheme for a Log-Structured File System</span><br>
+	  <span class="tag">[1]</span> <span class="pub-title"><a href="https://doi.org/10.1145/2967360.2967622">File Defragmentation Scheme for a Log-Structured File System</a></span><br>
 	  <strong>Jonggyu Park</strong>, Dong Hyun Kang, and Young Ik Eom<br>
 	  <em>Proceedings of the 7th ACM Asia-Pacific Workshop on Systems (APSys)</em>, 2016.
 	  <div class="pub-skills">
